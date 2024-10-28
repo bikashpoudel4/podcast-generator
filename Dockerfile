@@ -15,10 +15,11 @@
 
 ##### FROM MY OWN #####
 FROM ubuntu:latest
+FROM python:3.12-slim
 
 # Update package list and install necessary packages
 RUN apt-get update && apt-get install -y \
-    python3.12 \
+    # python3.12 \
     python3-pip \
     git \
     build-essential \
