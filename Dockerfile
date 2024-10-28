@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y \
 RUN python3.12 -m ensurepip --upgrade
 
 # Install PyYAML using pip3.12 with --no-cache-dir
-RUN pip3.12 install --no-cache-dir PyYAML
+RUN pip3 install --no-cache-dir PyYAML
 
 # Copy application files
 COPY feed.py /usr/bin/feed.py
