@@ -38,4 +38,4 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
       - name: Run Feed Generator
-        uses: planetoftheweb/podcast-feed-generator@main
+        uses: bikashpoudel4/podcast-feed-generator@main
